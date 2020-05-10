@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Common">
+
+    <test thread-count="1" name="Common API Tests">
+        <classes>
+            <class name="common.TestCommonCategories" />
+        </classes>
+    </test> <!-- Test -->
+    <test thread-count="1" name="Location API Tests">
+        <classes>
+            <class name="Location.TestLocationDetails" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
